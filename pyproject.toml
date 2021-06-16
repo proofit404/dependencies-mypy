@@ -4,6 +4,9 @@ version = "0.0.1dev0"
 description = "Type checker tools for dependencies library usage."
 authors = ["Artem Malyshev <proofit404@gmail.com>"]
 license = "BSD-2-Clause"
+packages = [
+    { include = "dependencies-stubs" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
